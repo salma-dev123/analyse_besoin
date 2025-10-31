@@ -39,16 +39,3 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 
 ---
 
-🧭 **Mini diagramme de cas d’utilisation (version texte)**
-
-  +-----------------------------------------+
-  |        Chefchaouen Bleu Durable         |
-  +-----------------------------------------+
-         /                     \
-        /                       \
-+--------------------+ +------------------------+
-| Consulter Blog | | Gérer Contenu |
-| (Lire, liker, etc.)| | (Articles, Utilisateurs)|
-+--------------------+ +------------------------+
-| |
-[Visiteur] [Admin]

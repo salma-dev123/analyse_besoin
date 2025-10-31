@@ -45,13 +45,14 @@ Permettre aux **visiteurs** et **contributeurs** de **découvrir, publier et par
 
 ## 🧭 Mini diagramme de cas d’utilisation (version texte)
 
-+-------------------------------------------+
-| Chefchaouen Bleu Durable |
-+-------------------------------------------+
-/ |
-/ |
-+----------------+ +----------------+ +--------------------+
-| Voir Articles | | Publier Article| | Gérer Utilisateurs |
-+----------------+ +----------------+ +--------------------+
-| | |
-[Visiteur] [Utilisateur] [Admin]
+          +-------------------------------------------+
+          |         Chefchaouen Bleu Durable          |
+          +-------------------------------------------+
+                 /                |                \
+                /                 |                 \
+     +----------------+   +----------------+   +--------------------+
+     |  Voir Articles |   | Publier Article|   | Gérer Utilisateurs |
+     |                |   |                |   |      et articles   |
+     +----------------+   +----------------+   +--------------------+
+            |                    |                       |
+      [Visiteur]           [Utilisateur]              [Admin]

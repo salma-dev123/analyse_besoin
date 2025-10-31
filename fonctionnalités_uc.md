@@ -2,9 +2,8 @@
 
 ---
 
-## 👤 Personas concernés
+## 👤 Persona concerné
 
-- **Lina Benali**, 27 ans — jeune professionnelle à Casablanca, passionnée de voyages authentiques et de nature.  
 - **Karim El Idrissi**, 32 ans — guide touristique à Chefchaouen, passionné par le tourisme durable et la promotion des initiatives locales.
 
 ---

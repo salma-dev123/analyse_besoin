@@ -1,57 +1,54 @@
-# ⚙️ Fonctionnalités principales et cas d’utilisation – Chefchaouen Bleu Durable
+⚙️ **Fonctionnalités principales et cas d’utilisation – Chefchaouen Bleu Durable**
+
+👤 **Persona concerné**  
+Youssef Amrani, 22 ans — étudiant en écotourisme à Tanger, passionné par la nature et la préservation du patrimoine local.  
 
 ---
 
-## 👤 Persona concerné
-
-- **Karim El Idrissi**, 32 ans — guide touristique à Chefchaouen, passionné par le tourisme durable et la promotion des initiatives locales.
-
----
-
-## 🧩 Objectif
-
-Permettre aux **visiteurs** et **contributeurs** de **découvrir, publier et partager** des informations sur le **tourisme durable à Chefchaouen** dans un **espace collaboratif en ligne**.
+🧩 **Objectif**  
+Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur le tourisme durable à Chefchaouen, tout en assurant la gestion du blog par l’administrateur.
 
 ---
 
-## 🧠 Liste des fonctionnalités (Méthode MoSCoW)
+🧠 **Liste des fonctionnalités (Méthode MoSCoW)**
 
-| Fonctionnalité | Description | Priorité | Justification |
-|----------------|-------------|-----------|----------------|
-| Créer un compte utilisateur | S’inscrire et gérer son profil | **Must** | Essentiel pour publier et interagir |
-| Gérer ses articles | Ajouter ou gérer ses articles avec texte et photos | **Must** | Cœur du projet pour valoriser les initiatives locales |
-| Consulter les articles | Lire les articles récents et populaires | **Must** | Permet aux visiteurs de découvrir les initiatives |
-| Commenter / liker / sauvegarder un article | Interagir avec le contenu | **Should** | Encourage la participation et permet de garder ses articles favoris |
-| Rechercher / filtrer des articles | Trouver rapidement un type d’activité (hébergement, artisanat, nature…) | **Should** | Améliore l’expérience utilisateur |
-| Gérer utilisateurs et articles (admin) | Ajouter, modifier ou supprimer tout contenu inapproprié | **Must** | Maintenir la qualité et la sécurité du blog |
-| Partager un article | Copier le lien ou partager sur les réseaux sociaux | **Could** | Favorise la diffusion en dehors de la plateforme |
-
----
-
-## 💬 Cas d’utilisation (UC)
-
-| ID | Acteur | Cas d’utilisation (UC) | Priorité |
-|----|--------|-------------------------|-----------|
-| UC1 | Utilisateur | S’inscrire et gérer son profil | **Must** |
-| UC2 | Utilisateur | Publier, modifier ou supprimer ses articles | **Must** |
-| UC3 | Visiteur | Consulter les articles récents et populaires | **Must** |
-| UC4 | Utilisateur | Commenter, liker ou sauvegarder un article | **Should** |
-| UC5 | Visiteur / Utilisateur | Rechercher ou filtrer les articles par type d’activité | **Should** |
-| UC6 | Admin | Gérer tous les articles et utilisateurs | **Must** |
-| UC7 | Utilisateur | Partager un article sur les réseaux sociaux | **Could** |
+| Fonctionnalité | Description | Priorité |
+|----------------|-------------|-----------|
+| Créer un compte utilisateur | Permettre l’inscription et la gestion du profil | Must |
+| Consulter la liste des articles | Voir les articles récents et populaires | Must |
+| Voir les détails d’un article | Lire le contenu complet avec images et auteur | Must |
+| Rechercher / filtrer un article | Trouver rapidement un article spécifique | Should |
+| Commenter, liker et sauvegarder un article | Interagir et garder ses articles préférés | Should |
+| Partager un article | Diffuser le contenu sur les réseaux sociaux | Could |
+| Gérer les articles (Admin) | Ajouter, modifier ou supprimer des articles | Must |
+| Gérer les utilisateurs (Admin) | Superviser les comptes et interactions | Must |
 
 ---
 
-## 🧭 Mini diagramme de cas d’utilisation (version texte)
+💬 **Cas d’utilisation (UC)**
 
-          +-------------------------------------------+
-          |         Chefchaouen Bleu Durable          |
-          +-------------------------------------------+
-                 /                |                \
-                /                 |                 \
-     +----------------+   +----------------+   +--------------------+
-     |  Voir Articles |   | Publier Article|   | Gérer Utilisateurs |
-     |                |   |                |   |      et articles   |
-     +----------------+   +----------------+   +--------------------+
-            |                    |                       |
-      [Visiteur]           [Utilisateur]              [Admin]
+| ID | Acteur | Cas d’utilisation | Priorité |
+|----|---------|------------------|-----------|
+| UC1 | Visiteur | Créer un compte utilisateur | Must |
+| UC2 | Visiteur | Consulter et voir les détails d’un article | Must |
+| UC3 | Visiteur | Rechercher / filtrer des articles | Should |
+| UC4 | Visiteur | Commenter, liker et sauvegarder un article | Should |
+| UC5 | Visiteur | Partager un article sur les réseaux sociaux | Could |
+| UC6 | Admin | Gérer les articles (CRUD) | Must |
+| UC7 | Admin | Gérer les utilisateurs | Must |
+
+---
+
+🧭 **Mini diagramme de cas d’utilisation (version texte)**
+
+  +-----------------------------------------+
+  |        Chefchaouen Bleu Durable         |
+  +-----------------------------------------+
+         /                     \
+        /                       \
++--------------------+ +------------------------+
+| Consulter Blog | | Gérer Contenu |
+| (Lire, liker, etc.)| | (Articles, Utilisateurs)|
++--------------------+ +------------------------+
+| |
+[Visiteur] [Admin]

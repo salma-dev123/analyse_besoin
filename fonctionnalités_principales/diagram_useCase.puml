@@ -14,10 +14,11 @@ rectangle "Blog : Chefchaouen - Bleu Durable" {
   (Consulter la liste des articles) as UC2
   (Voir les détails d'un article) as UC3
   (Rechercher / filtrer un article) as UC4
-  (Commenter / Liker / Sauvegarder un article) as UC5
-  (Partager un article) as UC6
-  (Créer les articles) as UC7
-  (Valider les articles) as UC8
+  (Commenter) as UC5
+  (Liker / Sauvegarder un article) as UC6
+  (Partager un article) as UC7
+  (Créer les articles) as UC8
+  (Valider les articles) as UC9
 }
 
 ' Relations du Visiteur
@@ -27,11 +28,12 @@ Visiteur -- UC3
 Visiteur -- UC4
 Visiteur -- UC5
 Visiteur -- UC6
+Visiteur -- UC7
 
 ' Relations de l'Editeur
-Editeur -- UC7
+Editeur -- UC8
 
 ' Relations de l'Administrateur
-Admin -- UC8
+Admin -- UC9
 
 @enduml

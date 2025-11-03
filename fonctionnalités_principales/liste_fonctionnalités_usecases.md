@@ -14,14 +14,13 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 
 | Fonctionnalité | Description | Priorité |
 |----------------|-------------|-----------|
-| Créer un compte utilisateur | Permettre l’inscription et la gestion du profil | Must |
+| Consulter la page d'acceuil | Voir les page d'acceuil de blog | Must |
 | Consulter la liste des articles | Voir les articles récents et populaires | Must |
 | Voir les détails d’un article | Lire le contenu complet avec images et auteur | Must |
 | Rechercher / filtrer un article | Trouver rapidement un article spécifique | Should |
 | Commenter, liker et sauvegarder un article | Interagir et garder ses articles préférés | Should |
 | Partager un article | Diffuser le contenu sur les réseaux sociaux | Could |
 | Gérer les articles  | Ajouter, modifier ou supprimer des articles | Must |
-| Gérer les utilisateurs | Superviser les comptes et interactions | Must |
 
 ---
 
@@ -29,12 +28,13 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 
 | ID | Acteur | Cas d’utilisation | Priorité |
 |----|---------|------------------|-----------|
-| UC1 | Visiteur | Créer un compte utilisateur | Must |
-| UC2 | Visiteur | Consulter et voir les détails d’un article | Must |
-| UC3 | Visiteur | Rechercher / filtrer des articles | Should |
-| UC4 | Visiteur | Commenter, liker et sauvegarder un article | Should |
-| UC5 | Visiteur | Partager un article sur les réseaux sociaux | Could |
-| UC6 | Editeur | Gérer les articles (CRUD) | Must |
-| UC7 | Admin | Gérer les utilisateurs | Must |
+| UC1 | Visiteur | Consulter la page d'acceuil | Must |
+| UC2 | Visiteur | Consulter la liste des articles | Must |
+| UC3 | Visiteur | Consulter et voir les détails d’un article | Must |
+| UC4 | Visiteur | Rechercher / filtrer des articles | Should |
+| UC5 | Visiteur | Commenter, liker et sauvegarder un article | Should |
+| UC6 | Visiteur | Partager un article sur les réseaux sociaux | Could |
+| UC7 | Editeur | Gérer les articles (CRUD) | Must |
+| UC8 | Admin | valider les articles | Must |
 
 ---

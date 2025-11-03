@@ -18,9 +18,10 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 | Consulter la liste des articles | Voir les articles récents et populaires | Must |
 | Voir les détails d’un article | Lire le contenu complet avec images et auteur | Must |
 | Rechercher / filtrer un article | Trouver rapidement un article spécifique | Should |
-| Commenter, liker et sauvegarder un article | Interagir et garder ses articles préférés | Should |
+| Commenter | Ajouter un commentaire sur un article | Must |
+| liker et sauvegarder un article | Interagir et garder ses articles préférés | Should |
 | Partager un article | Diffuser le contenu sur les réseaux sociaux | Could |
-| Gérer les articles  | Ajouter, modifier ou supprimer des articles | Must |
+| Gréer les articles  | Ajouter des articles | Must |
 
 ---
 
@@ -32,9 +33,10 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 | UC2 | Visiteur | Consulter la liste des articles | Must |
 | UC3 | Visiteur | Consulter et voir les détails d’un article | Must |
 | UC4 | Visiteur | Rechercher / filtrer des articles | Should |
-| UC5 | Visiteur | Commenter, liker et sauvegarder un article | Should |
-| UC6 | Visiteur | Partager un article sur les réseaux sociaux | Could |
-| UC7 | Editeur | Gérer les articles (CRUD) | Must |
-| UC8 | Admin | valider les articles | Must |
+| UC5 | Visiteur | Commenter | Must |
+| UC6 | Visiteur | liker et sauvegarder un article | Should | 
+| UC7 | Visiteur | Partager un article sur les réseaux sociaux | Could |
+| UC8 | Editeur | Créer les articles | Must |
+| UC9 | Admin | valider les articles | Must |
 
 ---

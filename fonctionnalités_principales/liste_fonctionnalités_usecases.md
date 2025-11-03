@@ -20,8 +20,8 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 | Rechercher / filtrer un article | Trouver rapidement un article spécifique | Should |
 | Commenter, liker et sauvegarder un article | Interagir et garder ses articles préférés | Should |
 | Partager un article | Diffuser le contenu sur les réseaux sociaux | Could |
-| Gérer les articles (Admin) | Ajouter, modifier ou supprimer des articles | Must |
-| Gérer les utilisateurs (Admin) | Superviser les comptes et interactions | Must |
+| Gérer les articles  | Ajouter, modifier ou supprimer des articles | Must |
+| Gérer les utilisateurs | Superviser les comptes et interactions | Must |
 
 ---
 
@@ -34,7 +34,7 @@ Permettre aux visiteurs de découvrir, interagir et organiser leurs lectures sur
 | UC3 | Visiteur | Rechercher / filtrer des articles | Should |
 | UC4 | Visiteur | Commenter, liker et sauvegarder un article | Should |
 | UC5 | Visiteur | Partager un article sur les réseaux sociaux | Could |
-| UC6 | Admin | Gérer les articles (CRUD) | Must |
+| UC6 | Editeur | Gérer les articles (CRUD) | Must |
 | UC7 | Admin | Gérer les utilisateurs | Must |
 
 ---

@@ -15,8 +15,8 @@ rectangle "Blog : Chefchaouen - Bleu Durable" {
   (Rechercher / filtrer un article) as UC3
   (Commenter / Liker / Sauvegarder un article) as UC4
   (Partager un article) as UC5
-  (Gérer les articles) as UC6
-  (Gérer les utilisateurs) as UC7
+  (Créer les articles) as UC6
+  (Valider les articles) as UC7
 }
 
 ' Relations du Visiteur

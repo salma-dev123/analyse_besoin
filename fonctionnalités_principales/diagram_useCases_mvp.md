@@ -1,5 +1,5 @@
 @startuml
-title Diagramme de cas d'utilisation (MVP) - Blog : Chefchaouen Bleu Durable
+title Diagramme de cas d'utilisation (MVP) - Blog Chefchaouen Bleu Durable
 left to right direction
 scale 1.3
 
@@ -8,7 +8,6 @@ actor "Éditeur" as Editeur
 actor "Administrateur" as Admin
 
 rectangle "MVP - Blog Chefchaouen Bleu Durable" {
-
   (Consulter la page d'accueil) as UC1
   (Consulter la liste des articles) as UC2
   (Voir les détails d’un article) as UC3
@@ -17,19 +16,17 @@ rectangle "MVP - Blog Chefchaouen Bleu Durable" {
   (Valider les articles) as UC6
 }
 
-' Relations Visiteur
+' Relations des acteurs
 Visiteur -- UC1
 Visiteur -- UC2
 Visiteur -- UC3
 Visiteur -- UC4
 
-' Relations Editeur
 Editeur -- UC5
 
-' Relations Admin
 Admin -- UC6
 
-' Héritage : l’Éditeur est un type d’Administrateur
+' Héritage
 Editeur <|-- Admin
 
 @enduml
